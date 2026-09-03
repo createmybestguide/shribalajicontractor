@@ -1,0 +1,2967 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#1a1a1a" />
+  <title>Shri Balaji Contractors | House & Building Construction in Lucknow</title>
+  <meta name="description" content="Shri Balaji Contractors provides house construction, building construction, civil work, repair, renovation, RCC, masonry, plastering, flooring and roofing services in Lucknow, Uttar Pradesh." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Shri Balaji Contractors | House & Building Construction in Lucknow" />
+  <meta property="og:description" content="Shri Balaji Contractors provides house construction, building construction, civil work, repair, renovation, RCC, masonry, plastering, flooring and roofing services in Lucknow, Uttar Pradesh." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_IN" />
+
+  <!-- Bootstrap 5 CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Shri Balaji Contractors",
+    "description": "House construction, building construction, civil work, repair, renovation and finishing services in Lucknow, Uttar Pradesh.",
+    "telephone": "+919936928712",
+    "email": "shribalajicontractors.in@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Plot no, 156, Paragana Naya Khera, Near Utsav Mandap Lawn, Abdul Kalam University",
+      "addressLocality": "Jankipuram, Lucknow",
+      "addressRegion": "Uttar Pradesh",
+      "postalCode": "226031",
+      "addressCountry": "IN"
+    },
+    "serviceType": [
+      "House Construction",
+      "Building Construction",
+      "Civil Construction",
+      "Repair Services",
+      "Renovation Services",
+      "RCC Work",
+      "Masonry Work",
+      "Plastering Work",
+      "Flooring Work",
+      "Roofing Work"
+    ]
+  }
+  </script>
+
+  <style>
+    /* ============================================================
+       CSS CUSTOM PROPERTIES (DESIGN TOKENS)
+    ============================================================ */
+    :root {
+      --color-primary:       #e8890c;
+      --color-primary-dark:  #c97408;
+      --color-primary-light: #f5a623;
+      --color-dark:          #111214;
+      --color-charcoal:      #1c1e22;
+      --color-charcoal-soft: #252830;
+      --color-text:          #1c1e22;
+      --color-text-muted:    #6b7280;
+      --color-text-light:    #9ca3af;
+      --color-white:         #ffffff;
+      --color-bg-light:      #f8f8f6;
+      --color-bg-gray:       #f2f2ef;
+      --color-border:        #e5e7eb;
+      --color-border-dark:   #2e3038;
+
+      --font-sans:    'Inter', sans-serif;
+      --font-display: 'Playfair Display', serif;
+
+      --radius-sm:  6px;
+      --radius-md:  12px;
+      --radius-lg:  20px;
+      --radius-xl:  28px;
+
+      --shadow-sm:  0 1px 4px rgba(0,0,0,0.06);
+      --shadow-md:  0 4px 20px rgba(0,0,0,0.09);
+      --shadow-lg:  0 12px 40px rgba(0,0,0,0.13);
+      --shadow-xl:  0 24px 64px rgba(0,0,0,0.18);
+
+      --transition-base: 0.28s cubic-bezier(0.4,0,0.2,1);
+      --transition-slow: 0.5s cubic-bezier(0.4,0,0.2,1);
+    }
+
+    /* ============================================================
+       BASE RESET & GLOBALS
+    ============================================================ */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 72px;
+      font-size: 16px;
+    }
+
+    body {
+      font-family: var(--font-sans);
+      color: var(--color-text);
+      background: var(--color-white);
+      overflow-x: hidden;
+      line-height: 1.65;
+    }
+
+    ::selection {
+      background: var(--color-primary);
+      color: #fff;
+    }
+
+    img { max-width: 100%; display: block; }
+
+    a { text-decoration: none; color: inherit; }
+
+    /* ============================================================
+       SCROLLBAR
+    ============================================================ */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: var(--color-bg-light); }
+    ::-webkit-scrollbar-thumb { background: var(--color-primary); border-radius: 3px; }
+
+    /* ============================================================
+       UTILITY / REUSABLE CLASSES
+    ============================================================ */
+
+    /* Section spacing */
+    .section-pad { padding: 96px 0; }
+    .section-pad-sm { padding: 64px 0; }
+
+    /* Section headings */
+    .section-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--color-primary);
+      margin-bottom: 14px;
+    }
+    .section-label::before {
+      content: '';
+      display: block;
+      width: 28px;
+      height: 2px;
+      background: var(--color-primary);
+      border-radius: 2px;
+    }
+
+    .section-title {
+      font-family: var(--font-display);
+      font-size: clamp(1.85rem, 4vw, 2.85rem);
+      font-weight: 800;
+      color: var(--color-text);
+      line-height: 1.18;
+      letter-spacing: -0.01em;
+    }
+
+    .section-title-light { color: var(--color-white); }
+
+    .section-subtitle {
+      font-size: 1.05rem;
+      color: var(--color-text-muted);
+      max-width: 520px;
+      line-height: 1.7;
+    }
+
+    /* Accent underline */
+    .accent-underline {
+      position: relative;
+      display: inline-block;
+    }
+    .accent-underline::after {
+      content: '';
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      background: var(--color-primary);
+      border-radius: 2px;
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.5s var(--transition-base);
+    }
+    .accent-underline.is-visible::after { transform: scaleX(1); }
+
+    /* Divider line */
+    .orange-line {
+      display: block;
+      width: 52px;
+      height: 3px;
+      background: linear-gradient(90deg, var(--color-primary), var(--color-primary-light));
+      border-radius: 2px;
+      margin-top: 14px;
+    }
+
+    /* Buttons */
+    .btn-primary-custom {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--color-primary);
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.92rem;
+      letter-spacing: 0.03em;
+      padding: 13px 28px;
+      border-radius: var(--radius-md);
+      border: 2px solid var(--color-primary);
+      transition: background var(--transition-base), transform var(--transition-base), box-shadow var(--transition-base);
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+    }
+    .btn-primary-custom::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: rgba(255,255,255,0.12);
+      opacity: 0;
+      transition: opacity var(--transition-base);
+    }
+    .btn-primary-custom:hover { background: var(--color-primary-dark); color: #fff; transform: translateY(-2px); box-shadow: 0 8px 24px rgba(232,137,12,0.35); }
+    .btn-primary-custom:hover::before { opacity: 1; }
+    .btn-primary-custom:active { transform: translateY(0); }
+
+    .btn-outline-custom {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: transparent;
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.92rem;
+      letter-spacing: 0.03em;
+      padding: 13px 28px;
+      border-radius: var(--radius-md);
+      border: 2px solid rgba(255,255,255,0.5);
+      transition: border-color var(--transition-base), background var(--transition-base), transform var(--transition-base);
+      cursor: pointer;
+    }
+    .btn-outline-custom:hover { border-color: #fff; background: rgba(255,255,255,0.08); color: #fff; transform: translateY(-2px); }
+
+    .btn-dark-custom {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--color-charcoal);
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.92rem;
+      letter-spacing: 0.03em;
+      padding: 13px 28px;
+      border-radius: var(--radius-md);
+      border: 2px solid var(--color-charcoal);
+      transition: background var(--transition-base), transform var(--transition-base), box-shadow var(--transition-base);
+      cursor: pointer;
+    }
+    .btn-dark-custom:hover { background: #000; color: #fff; transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.3); }
+
+    /* Cards */
+    .card-custom {
+      background: var(--color-white);
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--color-border);
+      box-shadow: var(--shadow-sm);
+      transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
+      overflow: hidden;
+    }
+    .card-custom:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); border-color: var(--color-primary); }
+
+    /* Badge */
+    .badge-custom {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: 30px;
+      background: rgba(232,137,12,0.1);
+      color: var(--color-primary);
+      border: 1px solid rgba(232,137,12,0.2);
+    }
+
+    /* ============================================================
+       SCROLL REVEAL ANIMATIONS
+    ============================================================ */
+    .reveal {
+      opacity: 0;
+      transform: translateY(32px);
+      transition: opacity 0.65s cubic-bezier(0.4,0,0.2,1), transform 0.65s cubic-bezier(0.4,0,0.2,1);
+    }
+    .reveal.delay-1 { transition-delay: 0.1s; }
+    .reveal.delay-2 { transition-delay: 0.2s; }
+    .reveal.delay-3 { transition-delay: 0.3s; }
+    .reveal.delay-4 { transition-delay: 0.4s; }
+    .reveal.delay-5 { transition-delay: 0.5s; }
+    .reveal.delay-6 { transition-delay: 0.6s; }
+    .reveal.is-visible { opacity: 1; transform: translateY(0); }
+
+    .reveal-left {
+      opacity: 0;
+      transform: translateX(-36px);
+      transition: opacity 0.65s cubic-bezier(0.4,0,0.2,1), transform 0.65s cubic-bezier(0.4,0,0.2,1);
+    }
+    .reveal-left.is-visible { opacity: 1; transform: translateX(0); }
+
+    .reveal-right {
+      opacity: 0;
+      transform: translateX(36px);
+      transition: opacity 0.65s cubic-bezier(0.4,0,0.2,1), transform 0.65s cubic-bezier(0.4,0,0.2,1);
+    }
+    .reveal-right.is-visible { opacity: 1; transform: translateX(0); }
+
+    /* Reduced motion support */
+    @media (prefers-reduced-motion: reduce) {
+      .reveal, .reveal-left, .reveal-right {
+        opacity: 1;
+        transform: none;
+        transition: none;
+      }
+      .accent-underline::after { transform: scaleX(1); transition: none; }
+      html { scroll-behavior: auto; }
+      * { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+    }
+
+    /* ============================================================
+       NAVBAR
+    ============================================================ */
+    #mainNav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      padding: 18px 0;
+      transition: background var(--transition-base), padding var(--transition-base), box-shadow var(--transition-base);
+    }
+    #mainNav.nav-scrolled {
+      background: var(--color-white) !important;
+      padding: 10px 0;
+      box-shadow: 0 2px 20px rgba(0,0,0,0.09);
+    }
+    #mainNav.nav-scrolled .nav-link { color: var(--color-charcoal) !important; }
+    #mainNav.nav-scrolled .navbar-brand { color: var(--color-charcoal) !important; }
+    #mainNav.nav-scrolled .navbar-brand span { color: var(--color-primary) !important; }
+    #mainNav.nav-scrolled .navbar-toggler { border-color: var(--color-border); }
+    #mainNav.nav-scrolled .navbar-toggler-icon { filter: none; }
+
+    .navbar-brand {
+      font-family: var(--font-sans);
+      font-weight: 900;
+      font-size: 1.15rem;
+      color: #fff !important;
+      letter-spacing: -0.01em;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .navbar-brand .brand-icon {
+      width: 38px;
+      height: 38px;
+      background: var(--color-primary);
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      color: #fff;
+      flex-shrink: 0;
+    }
+    .navbar-brand .brand-name span { color: var(--color-primary); }
+    .navbar-brand .brand-sub {
+      display: block;
+      font-size: 0.6rem;
+      font-weight: 500;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.65);
+      margin-top: -2px;
+    }
+    #mainNav.nav-scrolled .brand-sub { color: var(--color-text-muted) !important; }
+
+    .nav-link {
+      color: rgba(255,255,255,0.88) !important;
+      font-weight: 600;
+      font-size: 0.88rem;
+      letter-spacing: 0.03em;
+      padding: 6px 14px !important;
+      border-radius: var(--radius-sm);
+      transition: color var(--transition-base), background var(--transition-base);
+      position: relative;
+    }
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 14px;
+      right: 14px;
+      height: 2px;
+      background: var(--color-primary);
+      border-radius: 1px;
+      transform: scaleX(0);
+      transition: transform var(--transition-base);
+    }
+    .nav-link:hover::after, .nav-link.active::after { transform: scaleX(1); }
+    .nav-link:hover { color: #fff !important; }
+    .nav-link.active { color: var(--color-primary) !important; }
+    #mainNav.nav-scrolled .nav-link.active { color: var(--color-primary) !important; }
+
+    .btn-call-nav {
+      background: var(--color-primary);
+      color: #fff !important;
+      font-weight: 700;
+      font-size: 0.82rem;
+      padding: 8px 18px !important;
+      border-radius: var(--radius-sm);
+      letter-spacing: 0.04em;
+      border: 2px solid var(--color-primary);
+      transition: background var(--transition-base), transform var(--transition-base);
+      white-space: nowrap;
+    }
+    .btn-call-nav:hover { background: var(--color-primary-dark) !important; border-color: var(--color-primary-dark); transform: translateY(-1px); }
+    .btn-call-nav::after { display: none !important; }
+
+    .navbar-toggler {
+      border: 2px solid rgba(255,255,255,0.3);
+      padding: 6px 10px;
+    }
+    .navbar-toggler:focus { box-shadow: 0 0 0 3px rgba(232,137,12,0.3); }
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255%2c255%2c255%2c0.85%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+    /* Mobile nav */
+    @media (max-width: 991.98px) {
+      .navbar-collapse {
+        background: var(--color-white);
+        border-radius: var(--radius-md);
+        margin-top: 12px;
+        padding: 16px;
+        box-shadow: var(--shadow-lg);
+      }
+      .navbar-collapse .nav-link { color: var(--color-charcoal) !important; }
+      .navbar-collapse .nav-link.active { color: var(--color-primary) !important; }
+      .btn-call-nav { margin-top: 8px; display: inline-flex; }
+    }
+
+    /* ============================================================
+       HERO SECTION
+    ============================================================ */
+    #hero {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      background: var(--color-dark);
+    }
+
+    /* Geometric background */
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(135deg, #0d0e10 0%, #1a1c22 60%, #1f2029 100%);
+    }
+
+    /* Geometric grid overlay */
+    .hero-grid {
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(232,137,12,0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(232,137,12,0.04) 1px, transparent 1px);
+      background-size: 60px 60px;
+      opacity: 0.8;
+    }
+
+    /* Animated geometric shapes */
+    .hero-geo {
+      position: absolute;
+      pointer-events: none;
+    }
+    .hero-geo-1 {
+      top: 8%;
+      right: 6%;
+      width: 420px;
+      height: 420px;
+      border: 1.5px solid rgba(232,137,12,0.12);
+      border-radius: 50%;
+      animation: geoSpin 28s linear infinite;
+    }
+    .hero-geo-2 {
+      top: 12%;
+      right: 10%;
+      width: 280px;
+      height: 280px;
+      border: 1px solid rgba(232,137,12,0.08);
+      border-radius: 50%;
+      animation: geoSpin 20s linear infinite reverse;
+    }
+    .hero-geo-3 {
+      bottom: 10%;
+      left: 4%;
+      width: 180px;
+      height: 180px;
+      border: 1px solid rgba(232,137,12,0.07);
+      transform: rotate(45deg);
+      animation: geoFloat 8s ease-in-out infinite;
+    }
+    .hero-geo-4 {
+      top: 40%;
+      right: 2%;
+      width: 80px;
+      height: 80px;
+      border: 2px solid rgba(232,137,12,0.15);
+      border-radius: 50%;
+      animation: geoFloat 6s ease-in-out infinite 2s;
+    }
+    .hero-geo-5 {
+      bottom: 20%;
+      right: 18%;
+      width: 50px;
+      height: 50px;
+      background: rgba(232,137,12,0.07);
+      border-radius: var(--radius-sm);
+      transform: rotate(30deg);
+      animation: geoFloat 10s ease-in-out infinite 1s;
+    }
+
+    /* Corner accent */
+    .hero-corner {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 0;
+      height: 0;
+      border-left: 320px solid transparent;
+      border-top: 320px solid rgba(232,137,12,0.04);
+    }
+
+    /* Orange left stripe */
+    .hero-stripe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4px;
+      height: 100%;
+      background: linear-gradient(180deg, transparent 0%, var(--color-primary) 30%, var(--color-primary) 70%, transparent 100%);
+      opacity: 0.7;
+    }
+
+    .hero-content-wrap {
+      position: relative;
+      z-index: 2;
+      padding-top: 100px;
+      padding-bottom: 60px;
+    }
+
+    .hero-trust-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(232,137,12,0.1);
+      border: 1px solid rgba(232,137,12,0.25);
+      border-radius: 30px;
+      padding: 6px 16px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--color-primary-light);
+      margin-bottom: 28px;
+      animation: fadeInDown 0.8s ease forwards;
+    }
+    .hero-trust-badge .dot {
+      width: 5px;
+      height: 5px;
+      background: var(--color-primary);
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    .hero-headline {
+      font-family: var(--font-display);
+      font-size: clamp(2.4rem, 5.5vw, 4.2rem);
+      font-weight: 800;
+      color: #fff;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      margin-bottom: 24px;
+      animation: fadeInUp 0.9s 0.2s ease both;
+    }
+    .hero-headline em {
+      font-style: normal;
+      color: var(--color-primary);
+    }
+
+    .hero-sub {
+      font-size: clamp(1rem, 2vw, 1.18rem);
+      color: rgba(255,255,255,0.65);
+      max-width: 480px;
+      line-height: 1.7;
+      margin-bottom: 38px;
+      animation: fadeInUp 0.9s 0.35s ease both;
+    }
+
+    .hero-cta-wrap {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      animation: fadeInUp 0.9s 0.5s ease both;
+    }
+
+    /* Scroll indicator */
+    .hero-scroll {
+      position: absolute;
+      bottom: 36px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+      color: rgba(255,255,255,0.4);
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      animation: scrollPulse 2.5s ease-in-out infinite;
+    }
+    .hero-scroll-line {
+      width: 1px;
+      height: 40px;
+      background: linear-gradient(180deg, rgba(232,137,12,0.6), transparent);
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(24px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes geoSpin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes geoFloat {
+      0%, 100% { transform: translateY(0) rotate(45deg); }
+      50% { transform: translateY(-16px) rotate(45deg); }
+    }
+    @keyframes scrollPulse {
+      0%, 100% { opacity: 0.4; }
+      50% { opacity: 0.8; }
+    }
+
+    /* ============================================================
+       ABOUT SECTION
+    ============================================================ */
+    #about { background: var(--color-bg-light); }
+
+    .about-visual-card {
+      background: var(--color-white);
+      border-radius: var(--radius-xl);
+      padding: 40px 36px;
+      border: 1px solid var(--color-border);
+      box-shadow: var(--shadow-md);
+      position: relative;
+      overflow: hidden;
+    }
+    .about-visual-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 160px;
+      height: 160px;
+      background: radial-gradient(circle, rgba(232,137,12,0.07) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .about-icon-wrap {
+      width: 64px;
+      height: 64px;
+      background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+      border-radius: var(--radius-md);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.6rem;
+      color: #fff;
+      margin-bottom: 20px;
+      box-shadow: 0 6px 20px rgba(232,137,12,0.3);
+    }
+
+    .about-feature-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-top: 32px;
+    }
+
+    .about-feature-item {
+      background: var(--color-bg-light);
+      border-radius: var(--radius-md);
+      padding: 16px;
+      border: 1px solid var(--color-border);
+      transition: border-color var(--transition-base), background var(--transition-base);
+    }
+    .about-feature-item:hover { border-color: var(--color-primary); background: rgba(232,137,12,0.04); }
+    .about-feature-item .fi {
+      color: var(--color-primary);
+      font-size: 1.3rem;
+      display: block;
+      margin-bottom: 6px;
+    }
+    .about-feature-item span {
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: var(--color-text);
+      display: block;
+      line-height: 1.3;
+    }
+
+    .about-text-body {
+      font-size: 1rem;
+      color: var(--color-text-muted);
+      line-height: 1.78;
+      margin-bottom: 20px;
+    }
+
+    .about-checklist {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 28px;
+    }
+    .about-checklist li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 0.95rem;
+      color: var(--color-text);
+      margin-bottom: 10px;
+      font-weight: 500;
+    }
+    .about-checklist li .bi {
+      color: var(--color-primary);
+      font-size: 1rem;
+      margin-top: 2px;
+      flex-shrink: 0;
+    }
+
+    /* ============================================================
+       SERVICES SECTION
+    ============================================================ */
+    #services { background: var(--color-white); }
+
+    .service-card {
+      background: var(--color-white);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+      border: 1px solid var(--color-border);
+      box-shadow: var(--shadow-sm);
+      height: 100%;
+      position: relative;
+      overflow: hidden;
+      transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
+      cursor: pointer;
+    }
+    .service-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      background: linear-gradient(90deg, var(--color-primary), var(--color-primary-light));
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform var(--transition-base);
+    }
+    .service-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); border-color: rgba(232,137,12,0.25); }
+    .service-card:hover::before { transform: scaleX(1); }
+
+    .service-icon-wrap {
+      width: 58px;
+      height: 58px;
+      background: rgba(232,137,12,0.08);
+      border-radius: var(--radius-md);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      color: var(--color-primary);
+      margin-bottom: 20px;
+      transition: background var(--transition-base), transform var(--transition-base);
+    }
+    .service-card:hover .service-icon-wrap {
+      background: var(--color-primary);
+      color: #fff;
+      transform: scale(1.06);
+    }
+
+    .service-card h5 {
+      font-size: 1.05rem;
+      font-weight: 800;
+      color: var(--color-text);
+      margin-bottom: 10px;
+      line-height: 1.3;
+    }
+    .service-card p {
+      font-size: 0.88rem;
+      color: var(--color-text-muted);
+      line-height: 1.65;
+      margin-bottom: 18px;
+    }
+
+    .service-expand-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--color-primary);
+      letter-spacing: 0.04em;
+      background: none;
+      border: none;
+      padding: 0;
+      cursor: pointer;
+      transition: gap var(--transition-base);
+    }
+    .service-expand-btn:hover { gap: 10px; }
+    .service-expand-btn .bi { transition: transform var(--transition-base); }
+    .service-expand-btn[aria-expanded="true"] .bi { transform: rotate(180deg); }
+
+    .service-list-collapse {
+      margin-top: 14px;
+      padding-top: 14px;
+      border-top: 1px solid var(--color-border);
+    }
+    .service-list-collapse ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .service-list-collapse ul li {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 0.82rem;
+      color: var(--color-text-muted);
+      padding: 4px 0;
+      border-bottom: 1px solid rgba(0,0,0,0.04);
+    }
+    .service-list-collapse ul li:last-child { border-bottom: none; }
+    .service-list-collapse ul li::before {
+      content: '';
+      width: 5px;
+      height: 5px;
+      background: var(--color-primary);
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    /* ============================================================
+       PROCESS SECTION
+    ============================================================ */
+    #process { background: var(--color-bg-light); }
+
+    .process-wrap {
+      position: relative;
+    }
+
+    /* Connecting line on desktop */
+    .process-line {
+      position: absolute;
+      top: 38px;
+      left: calc(12.5% + 19px);
+      right: calc(12.5% + 19px);
+      height: 2px;
+      background: linear-gradient(90deg, var(--color-primary) 0%, rgba(232,137,12,0.15) 100%);
+      z-index: 0;
+      display: none;
+    }
+    @media (min-width: 992px) { .process-line { display: block; } }
+
+    .process-step {
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+    .process-number {
+      width: 76px;
+      height: 76px;
+      border-radius: 50%;
+      background: var(--color-white);
+      border: 2px solid var(--color-primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 24px;
+      font-size: 0.85rem;
+      font-weight: 900;
+      color: var(--color-primary);
+      letter-spacing: 0.02em;
+      box-shadow: 0 0 0 8px var(--color-bg-light), 0 4px 16px rgba(232,137,12,0.2);
+      transition: background var(--transition-base), color var(--transition-base), transform var(--transition-base);
+      position: relative;
+    }
+    .process-step:hover .process-number {
+      background: var(--color-primary);
+      color: #fff;
+      transform: scale(1.08);
+    }
+    .process-step h5 {
+      font-size: 1.05rem;
+      font-weight: 800;
+      color: var(--color-text);
+      margin-bottom: 10px;
+    }
+    .process-step p {
+      font-size: 0.9rem;
+      color: var(--color-text-muted);
+      line-height: 1.65;
+      max-width: 200px;
+      margin: 0 auto;
+    }
+
+    /* ============================================================
+       WHY CHOOSE US
+    ============================================================ */
+    #why { background: var(--color-white); }
+
+    .why-card {
+      background: var(--color-bg-light);
+      border-radius: var(--radius-lg);
+      padding: 32px 26px;
+      border: 1px solid var(--color-border);
+      height: 100%;
+      transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base), background var(--transition-base);
+      position: relative;
+      overflow: hidden;
+    }
+    .why-card::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 3px;
+      background: var(--color-primary);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform var(--transition-base);
+    }
+    .why-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); border-color: rgba(232,137,12,0.2); background: var(--color-white); }
+    .why-card:hover::after { transform: scaleX(1); }
+
+    .why-icon {
+      width: 54px;
+      height: 54px;
+      background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+      border-radius: var(--radius-md);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.35rem;
+      color: #fff;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 14px rgba(232,137,12,0.25);
+    }
+    .why-card h5 {
+      font-size: 1rem;
+      font-weight: 800;
+      color: var(--color-text);
+      margin-bottom: 10px;
+    }
+    .why-card p {
+      font-size: 0.88rem;
+      color: var(--color-text-muted);
+      line-height: 1.65;
+      margin: 0;
+    }
+
+    /* ============================================================
+       CTA SECTION
+    ============================================================ */
+    #cta {
+      background: var(--color-charcoal);
+      position: relative;
+      overflow: hidden;
+    }
+    #cta::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(232,137,12,0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(232,137,12,0.04) 1px, transparent 1px);
+      background-size: 48px 48px;
+      pointer-events: none;
+    }
+    .cta-accent {
+      position: absolute;
+      top: -80px;
+      right: -80px;
+      width: 320px;
+      height: 320px;
+      background: radial-gradient(circle, rgba(232,137,12,0.12) 0%, transparent 65%);
+      pointer-events: none;
+    }
+    .cta-headline {
+      font-family: var(--font-display);
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 800;
+      color: #fff;
+      line-height: 1.15;
+      margin-bottom: 18px;
+    }
+    .cta-headline em {
+      font-style: normal;
+      color: var(--color-primary);
+    }
+    .cta-text {
+      color: rgba(255,255,255,0.65);
+      font-size: 1rem;
+      margin-bottom: 36px;
+      max-width: 460px;
+    }
+
+    /* ============================================================
+       CONTACT SECTION
+    ============================================================ */
+    #contact { background: var(--color-bg-light); }
+
+    .contact-card {
+      background: var(--color-white);
+      border-radius: var(--radius-lg);
+      padding: 36px 30px;
+      border: 1px solid var(--color-border);
+      box-shadow: var(--shadow-sm);
+      text-align: center;
+      height: 100%;
+      transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
+      position: relative;
+      overflow: hidden;
+    }
+    .contact-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 60%;
+      height: 2px;
+      background: var(--color-primary);
+      border-radius: 0 0 2px 2px;
+    }
+    .contact-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); border-color: rgba(232,137,12,0.2); }
+
+    .contact-icon {
+      width: 62px;
+      height: 62px;
+      background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      color: #fff;
+      margin: 0 auto 20px;
+      box-shadow: 0 6px 20px rgba(232,137,12,0.3);
+    }
+    .contact-card h5 {
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--color-primary);
+      margin-bottom: 12px;
+    }
+    .contact-card a {
+      color: var(--color-text);
+      font-weight: 700;
+      font-size: 1.05rem;
+      transition: color var(--transition-base);
+    }
+    .contact-card a:hover { color: var(--color-primary); }
+    .contact-card .address-text {
+      font-size: 0.9rem;
+      color: var(--color-text-muted);
+      line-height: 1.7;
+    }
+
+    /* ============================================================
+       MAP SECTION
+    ============================================================ */
+    #map { background: var(--color-white); padding: 0 0 96px; }
+
+    .map-container {
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      box-shadow: var(--shadow-lg);
+      border: 1px solid var(--color-border);
+      position: relative;
+    }
+    .map-container iframe {
+      width: 100%;
+      height: 460px;
+      display: block;
+      border: none;
+    }
+    .map-overlay-bar {
+      background: var(--color-white);
+      padding: 20px 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 14px;
+      border-top: 1px solid var(--color-border);
+    }
+    .map-address-text {
+      font-size: 0.88rem;
+      color: var(--color-text-muted);
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+    }
+    .map-address-text .bi { color: var(--color-primary); flex-shrink: 0; margin-top: 1px; }
+    .btn-directions {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      background: var(--color-primary);
+      color: #fff;
+      font-size: 0.85rem;
+      font-weight: 700;
+      padding: 10px 20px;
+      border-radius: var(--radius-sm);
+      transition: background var(--transition-base), transform var(--transition-base);
+    }
+    .btn-directions:hover { background: var(--color-primary-dark); color: #fff; transform: translateY(-1px); }
+
+    /* ============================================================
+       FOOTER
+    ============================================================ */
+    #footer {
+      background: var(--color-dark);
+      color: rgba(255,255,255,0.7);
+      padding: 72px 0 0;
+    }
+
+    .footer-brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+    .footer-brand-icon {
+      width: 42px;
+      height: 42px;
+      background: var(--color-primary);
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      color: #fff;
+    }
+    .footer-brand-name {
+      font-weight: 900;
+      font-size: 1.05rem;
+      color: #fff;
+      letter-spacing: -0.01em;
+    }
+    .footer-brand-name span { color: var(--color-primary); }
+    .footer-brand-sub {
+      font-size: 0.62rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.4);
+    }
+
+    .footer-desc {
+      font-size: 0.88rem;
+      color: rgba(255,255,255,0.5);
+      line-height: 1.7;
+      margin-bottom: 24px;
+      max-width: 300px;
+    }
+
+    .footer-heading {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--color-primary);
+      margin-bottom: 20px;
+    }
+
+    .footer-link-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .footer-link-list li { margin-bottom: 10px; }
+    .footer-link-list li a {
+      font-size: 0.88rem;
+      color: rgba(255,255,255,0.55);
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      transition: color var(--transition-base), gap var(--transition-base);
+    }
+    .footer-link-list li a::before {
+      content: '';
+      width: 4px;
+      height: 4px;
+      background: var(--color-primary);
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .footer-link-list li a:hover { color: var(--color-primary-light); gap: 10px; }
+
+    .footer-contact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+    .footer-contact-item .bi {
+      color: var(--color-primary);
+      font-size: 1rem;
+      margin-top: 1px;
+      flex-shrink: 0;
+    }
+    .footer-contact-item a, .footer-contact-item span {
+      font-size: 0.88rem;
+      color: rgba(255,255,255,0.6);
+      transition: color var(--transition-base);
+      line-height: 1.6;
+    }
+    .footer-contact-item a:hover { color: var(--color-primary-light); }
+
+    .footer-bottom {
+      margin-top: 56px;
+      border-top: 1px solid var(--color-border-dark);
+      padding: 22px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .footer-bottom p {
+      font-size: 0.82rem;
+      color: rgba(255,255,255,0.35);
+      margin: 0;
+    }
+    .footer-bottom-badge {
+      font-size: 0.72rem;
+      color: rgba(255,255,255,0.25);
+      letter-spacing: 0.06em;
+    }
+
+    /* ============================================================
+       BACK TO TOP
+    ============================================================ */
+    #backToTop {
+      position: fixed;
+      bottom: 28px;
+      right: 28px;
+      width: 46px;
+      height: 46px;
+      background: var(--color-primary);
+      color: #fff;
+      border: none;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      cursor: pointer;
+      box-shadow: 0 4px 16px rgba(232,137,12,0.4);
+      z-index: 999;
+      opacity: 0;
+      transform: translateY(16px);
+      transition: opacity var(--transition-base), transform var(--transition-base), background var(--transition-base);
+      pointer-events: none;
+    }
+    #backToTop.show { opacity: 1; transform: translateY(0); pointer-events: auto; }
+    #backToTop:hover { background: var(--color-primary-dark); }
+
+    /* ============================================================
+       FOCUS STYLES (ACCESSIBILITY)
+    ============================================================ */
+    :focus-visible {
+      outline: 2px solid var(--color-primary);
+      outline-offset: 3px;
+      border-radius: 3px;
+    }
+
+    /* ============================================================
+       MISC / RESPONSIVE ADJUSTMENTS
+    ============================================================ */
+    @media (max-width: 767.98px) {
+      .section-pad { padding: 64px 0; }
+      .section-pad-sm { padding: 48px 0; }
+      .hero-geo-1 { width: 260px; height: 260px; }
+      .hero-geo-2 { display: none; }
+      .hero-corner { border-left-width: 200px; border-top-width: 200px; }
+      .about-feature-grid { grid-template-columns: 1fr 1fr; }
+      .map-overlay-bar { flex-direction: column; align-items: flex-start; }
+      .process-line { display: none; }
+    }
+
+    @media (max-width: 575.98px) {
+      .about-feature-grid { grid-template-columns: 1fr; }
+      .hero-cta-wrap { flex-direction: column; align-items: flex-start; }
+    }
+
+    /* Thin orange section top border accent */
+    .section-top-accent {
+      display: block;
+      width: 100%;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--color-primary), transparent);
+      opacity: 0.3;
+    }
+
+    /* ============================================================
+       DISCLAIMER SECTION — MyBestGuide
+       All classes prefixed with mbg- to avoid global conflicts
+    ============================================================ */
+
+    .mbg-disclaimer-section {
+      background: var(--color-charcoal-soft, #252830);
+      border-top: 1px solid rgba(232, 137, 12, 0.18);
+      box-shadow: 0 -4px 32px rgba(0, 0, 0, 0.22);
+      font-family: var(--font-sans, 'Inter', sans-serif);
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Subtle top accent line */
+    .mbg-disclaimer-section::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: linear-gradient(90deg,
+        transparent 0%,
+        var(--color-primary, #e8890c) 35%,
+        var(--color-primary-light, #f5a623) 65%,
+        transparent 100%);
+      opacity: 0.7;
+      pointer-events: none;
+    }
+
+    .mbg-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* ---- Toggle button (always visible header) ---- */
+    .mbg-toggle-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      width: 100%;
+      min-height: 56px;
+      padding: 14px 20px;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      text-align: center;
+      position: relative;
+      transition: background 0.3s ease;
+      border-radius: 0;
+      -webkit-tap-highlight-color: transparent;
+      touch-action: manipulation;
+    }
+
+    .mbg-toggle-btn:hover {
+      background: rgba(232, 137, 12, 0.05);
+    }
+
+    .mbg-toggle-btn:focus-visible {
+      outline: 2px solid var(--color-primary, #e8890c);
+      outline-offset: -2px;
+    }
+
+    .mbg-heading-text {
+      font-size: clamp(0.88rem, 2.2vw, 1rem);
+      font-weight: 700;
+      color: rgba(255, 255, 255, 0.72);
+      letter-spacing: 0.04em;
+      line-height: 1.4;
+      white-space: normal;
+      word-break: break-word;
+    }
+
+    .mbg-brand-link {
+      color: var(--color-primary, #e8890c);
+      text-decoration: none;
+      font-weight: 800;
+      border-bottom: 1px solid rgba(232, 137, 12, 0.35);
+      transition: color 0.25s ease, border-color 0.25s ease;
+    }
+
+    .mbg-brand-link:hover {
+      color: var(--color-primary-light, #f5a623);
+      border-bottom-color: var(--color-primary-light, #f5a623);
+    }
+
+    /* Arrow icon */
+    .mbg-arrow-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 28px;
+      height: 28px;
+      background: rgba(232, 137, 12, 0.1);
+      border: 1px solid rgba(232, 137, 12, 0.2);
+      border-radius: 50%;
+      flex-shrink: 0;
+      transition: background 0.3s ease;
+    }
+
+    .mbg-toggle-btn:hover .mbg-arrow-wrap {
+      background: rgba(232, 137, 12, 0.18);
+    }
+
+    .mbg-arrow-icon {
+      font-size: 0.85rem;
+      color: var(--color-primary, #e8890c);
+      display: block;
+      transition: transform 0.42s cubic-bezier(0.4, 0, 0.2, 1);
+      line-height: 1;
+    }
+
+    /* Arrow rotated when expanded */
+    .mbg-toggle-btn[aria-expanded="true"] .mbg-arrow-icon {
+      transform: rotate(180deg);
+    }
+
+    /* ---- Collapsible outer wrapper ---- */
+    .mbg-body-outer {
+      /* Desktop: max-height transition for smooth open/close */
+      max-height: 0;
+      overflow: hidden;
+      transition:
+        max-height 0.45s cubic-bezier(0.4, 0, 0.2, 1),
+        opacity 0.4s ease;
+      opacity: 0;
+    }
+
+    /* Expanded state (added via JS) */
+    .mbg-body-outer.mbg-expanded {
+      max-height: 40vh;  /* Desktop cap */
+      opacity: 1;
+      overflow-y: auto;
+    }
+
+    /* ---- Mobile fix: remove fixed max-height so content never clips ---- */
+    @media (max-width: 768px) {
+      .mbg-body-outer.mbg-expanded {
+        max-height: none;   /* Let height be natural on mobile */
+        height: auto;
+        overflow: visible;
+      }
+    }
+
+    /* Inner wrapper with padding */
+    .mbg-body-inner {
+      padding: 4px 0 28px;
+    }
+
+    /* Divider line between header and body */
+    .mbg-content-wrap {
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+      padding-top: 22px;
+    }
+
+    /* ---- Disclaimer text ---- */
+    .mbg-text {
+      font-size: clamp(0.82rem, 2vw, 0.93rem);
+      color: rgba(255, 255, 255, 0.52);
+      line-height: 1.75;
+      text-align: center;
+      margin: 0 auto 24px;
+      max-width: 680px;
+    }
+
+    .mbg-inline-link {
+      color: var(--color-primary, #e8890c);
+      text-decoration: none;
+      font-weight: 700;
+      border-bottom: 1px solid rgba(232, 137, 12, 0.3);
+      transition: color 0.25s ease, border-color 0.25s ease;
+    }
+
+    .mbg-inline-link:hover {
+      color: var(--color-primary-light, #f5a623);
+      border-bottom-color: rgba(245, 166, 35, 0.6);
+    }
+
+    /* ---- Button group ---- */
+    .mbg-btn-group {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    /* ---- Buttons base ---- */
+    .mbg-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      font-family: var(--font-sans, 'Inter', sans-serif);
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      padding: 10px 22px;
+      border-radius: var(--radius-md, 12px);
+      border: 2px solid var(--color-primary, #e8890c);
+      background: var(--color-primary, #e8890c);
+      color: #ffffff;
+      text-decoration: none;
+      cursor: pointer;
+      transition:
+        background 0.28s ease,
+        border-color 0.28s ease,
+        color 0.28s ease,
+        transform 0.28s ease,
+        box-shadow 0.28s ease;
+      white-space: nowrap;
+      min-height: 44px;
+    }
+
+    .mbg-btn:hover {
+      background: var(--color-primary-dark, #c97408);
+      border-color: var(--color-primary-dark, #c97408);
+      color: #ffffff;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(232, 137, 12, 0.35);
+    }
+
+    .mbg-btn:active {
+      transform: translateY(0);
+    }
+
+    .mbg-btn:focus-visible {
+      outline: 2px solid var(--color-primary-light, #f5a623);
+      outline-offset: 3px;
+    }
+
+    /* Outline variant */
+    .mbg-btn--outline {
+      background: transparent;
+      color: rgba(255, 255, 255, 0.75);
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .mbg-btn--outline:hover {
+      background: rgba(255, 255, 255, 0.06);
+      border-color: rgba(255, 255, 255, 0.45);
+      color: #ffffff;
+      box-shadow: none;
+      transform: translateY(-2px);
+    }
+
+    /* CTA (primary + emphasis) */
+    .mbg-btn--cta {
+      background: linear-gradient(
+        135deg,
+        var(--color-primary, #e8890c),
+        var(--color-primary-light, #f5a623)
+      );
+      border-color: transparent;
+      color: #ffffff;
+      box-shadow: 0 4px 14px rgba(232, 137, 12, 0.28);
+    }
+
+    .mbg-btn--cta:hover {
+      background: linear-gradient(
+        135deg,
+        var(--color-primary-dark, #c97408),
+        var(--color-primary, #e8890c)
+      );
+      border-color: transparent;
+      color: #ffffff;
+      box-shadow: 0 8px 24px rgba(232, 137, 12, 0.42);
+      transform: translateY(-2px);
+    }
+
+    /* ---- Mobile overrides ---- */
+    @media (max-width: 768px) {
+      .mbg-container {
+        padding: 0 16px;
+      }
+
+      .mbg-toggle-btn {
+        padding: 14px 12px;
+        min-height: 52px;
+        gap: 10px;
+      }
+
+      .mbg-heading-text {
+        font-size: 0.9rem;
+      }
+
+      .mbg-text {
+        font-size: 0.85rem;
+        text-align: left;
+      }
+
+      .mbg-btn-group {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+      }
+
+      .mbg-btn {
+        width: 100%;
+        justify-content: center;
+        white-space: normal;
+        padding: 12px 16px;
+        font-size: 0.88rem;
+      }
+
+      .mbg-body-inner {
+        padding: 4px 0 24px;
+      }
+    }
+
+    @media (max-width: 400px) {
+      .mbg-heading-text {
+        font-size: 0.82rem;
+      }
+
+      .mbg-toggle-btn {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ============================================================
+       NAVBAR
+  ============================================================ -->
+  <nav id="mainNav" class="navbar navbar-expand-lg" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand" href="#hero" aria-label="Shri Balaji Contractors - Home">
+        <div class="brand-icon" aria-hidden="true">
+          <i class="bi bi-building-fill-up"></i>
+        </div>
+        <div class="brand-name">
+          Shri <span>Balaji</span> Contractors
+          <small class="brand-sub">Construction &amp; Civil Works</small>
+        </div>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarContent" aria-controls="navbarContent"
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+        <ul class="navbar-nav align-items-lg-center gap-lg-1 me-lg-3">
+          <li class="nav-item">
+            <a class="nav-link active" href="#hero" aria-current="page">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#why">Why Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <a href="tel:+919936928712" class="nav-link btn-call-nav" aria-label="Call Shri Balaji Contractors">
+          <i class="bi bi-telephone-fill me-1" aria-hidden="true"></i> Call Now
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       HERO SECTION
+  ============================================================ -->
+  <section id="hero" aria-label="Hero — Building Strong Foundations">
+    <!-- Background layers -->
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-grid" aria-hidden="true"></div>
+    <div class="hero-stripe" aria-hidden="true"></div>
+    <div class="hero-corner" aria-hidden="true"></div>
+
+    <!-- Geometric decorative elements -->
+    <div class="hero-geo hero-geo-1" aria-hidden="true"></div>
+    <div class="hero-geo hero-geo-2" aria-hidden="true"></div>
+    <div class="hero-geo hero-geo-3" aria-hidden="true"></div>
+    <div class="hero-geo hero-geo-4" aria-hidden="true"></div>
+    <div class="hero-geo hero-geo-5" aria-hidden="true"></div>
+
+    <div class="container">
+      <div class="row align-items-center hero-content-wrap">
+        <div class="col-lg-7 col-xl-6">
+          <!-- Trust badge -->
+          <div class="hero-trust-badge" role="note">
+            <span class="dot" aria-hidden="true"></span>
+            Construction
+            <span class="dot" aria-hidden="true"></span>
+            Civil Work
+            <span class="dot" aria-hidden="true"></span>
+            Repair
+            <span class="dot" aria-hidden="true"></span>
+            Renovation
+          </div>
+
+          <!-- Headline -->
+          <h1 class="hero-headline">
+            Building Strong<br>
+            Foundations.<br>
+            <em>Creating Better</em> Spaces.
+          </h1>
+
+          <!-- Subtext -->
+          <p class="hero-sub">
+            Reliable construction, civil work, repair and renovation services in Lucknow.
+          </p>
+
+          <!-- CTAs -->
+          <div class="hero-cta-wrap">
+            <a href="tel:+919936928712" class="btn-primary-custom" aria-label="Call Shri Balaji Contractors at +91 99369 28712">
+              <i class="bi bi-telephone-fill" aria-hidden="true"></i>
+              Call Now
+            </a>
+            <a href="#services" class="btn-outline-custom" aria-label="Explore our services">
+              Explore Services
+              <i class="bi bi-arrow-down-right" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right side visual card -->
+        <div class="col-lg-5 col-xl-6 d-none d-lg-flex justify-content-end mt-4 mt-lg-0">
+          <div style="position:relative; width: 340px;">
+            <!-- Main card -->
+            <div style="
+              background: rgba(255,255,255,0.04);
+              border: 1px solid rgba(255,255,255,0.1);
+              border-radius: 20px;
+              padding: 36px 32px;
+              backdrop-filter: blur(10px);
+              position: relative;
+              overflow: hidden;
+            ">
+              <!-- Inner orange glow -->
+              <div style="position:absolute;top:-40px;right:-40px;width:160px;height:160px;background:radial-gradient(circle,rgba(232,137,12,0.15) 0%,transparent 70%);pointer-events:none;" aria-hidden="true"></div>
+
+              <div style="display:flex;align-items:center;gap:12px;margin-bottom:28px;">
+                <div style="width:44px;height:44px;background:var(--color-primary);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.2rem;color:#fff;">
+                  <i class="bi bi-building-fill-up" aria-hidden="true"></i>
+                </div>
+                <div>
+                  <div style="font-weight:800;color:#fff;font-size:0.95rem;">Shri Balaji Contractors</div>
+                  <div style="font-size:0.7rem;color:rgba(255,255,255,0.45);letter-spacing:0.1em;text-transform:uppercase;">Lucknow, UP</div>
+                </div>
+              </div>
+
+              <!-- Service pills -->
+              <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px;">
+                <span style="background:rgba(232,137,12,0.15);border:1px solid rgba(232,137,12,0.25);border-radius:20px;padding:4px 12px;font-size:0.72rem;font-weight:700;color:var(--color-primary-light);">House Construction</span>
+                <span style="background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);border-radius:20px;padding:4px 12px;font-size:0.72rem;font-weight:700;color:rgba(255,255,255,0.6);">RCC Work</span>
+                <span style="background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);border-radius:20px;padding:4px 12px;font-size:0.72rem;font-weight:700;color:rgba(255,255,255,0.6);">Renovation</span>
+                <span style="background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);border-radius:20px;padding:4px 12px;font-size:0.72rem;font-weight:700;color:rgba(255,255,255,0.6);">Masonry</span>
+                <span style="background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);border-radius:20px;padding:4px 12px;font-size:0.72rem;font-weight:700;color:rgba(255,255,255,0.6);">Repair</span>
+                <span style="background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);border-radius:20px;padding:4px 12px;font-size:0.72rem;font-weight:700;color:rgba(255,255,255,0.6);">Civil Work</span>
+              </div>
+
+              <!-- Divider -->
+              <div style="height:1px;background:rgba(255,255,255,0.07);margin-bottom:20px;" aria-hidden="true"></div>
+
+              <!-- Contact info mini -->
+              <a href="tel:+919936928712" style="display:flex;align-items:center;gap:10px;color:rgba(255,255,255,0.7);font-size:0.88rem;font-weight:600;transition:color 0.3s;" aria-label="Call +91 99369 28712">
+                <span style="width:34px;height:34px;background:rgba(232,137,12,0.15);border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--color-primary);">
+                  <i class="bi bi-telephone-fill" aria-hidden="true"></i>
+                </span>
+                +91 99369 28712
+              </a>
+            </div>
+
+            <!-- Floating mini card -->
+            <div style="
+              position: absolute;
+              bottom: -24px;
+              left: -28px;
+              background: var(--color-primary);
+              border-radius: 14px;
+              padding: 14px 18px;
+              box-shadow: 0 12px 36px rgba(232,137,12,0.4);
+              color: #fff;
+              font-size: 0.78rem;
+              font-weight: 800;
+              letter-spacing: 0.04em;
+              display: flex;
+              align-items: center;
+              gap: 8px;
+            " aria-hidden="true">
+              <i class="bi bi-geo-alt-fill"></i>
+              Jankipuram, Lucknow
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll cue -->
+    <div class="hero-scroll" aria-hidden="true">
+      <div class="hero-scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ABOUT SECTION
+  ============================================================ -->
+  <section id="about" class="section-pad" aria-labelledby="about-heading">
+    <div class="container">
+      <div class="row align-items-center g-5">
+
+        <!-- Left: Text -->
+        <div class="col-lg-6">
+          <div class="reveal-left">
+            <span class="section-label" aria-hidden="true">About Us</span>
+            <h2 id="about-heading" class="section-title mb-3">
+              Construction Work Built<br>Around <span style="color:var(--color-primary);">Quality</span>
+            </h2>
+            <span class="orange-line mb-4 d-block" aria-hidden="true"></span>
+            <p class="about-text-body">
+              Shri Balaji Contractors is a dedicated construction and civil services provider based in Jankipuram, Lucknow. We offer a comprehensive range of services covering new house construction, residential and commercial building work, complete civil construction, structural work, finishing, and repair and renovation services.
+            </p>
+            <p class="about-text-body">
+              Our approach focuses on understanding each client's requirements carefully and delivering work with proper attention to structural integrity, quality materials, and practical finishing — whether the project is a new construction, a repair, or a complete renovation.
+            </p>
+
+            <ul class="about-checklist" aria-label="Our key strengths">
+              <li>
+                <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                Residential and commercial construction services
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                Complete civil and structural work
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                Repair, renovation and finishing services
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                Serving Lucknow and surrounding areas
+              </li>
+            </ul>
+
+            <a href="#services" class="btn-primary-custom" aria-label="View all our services">
+              View Our Services
+              <i class="bi bi-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: Visual card -->
+        <div class="col-lg-6">
+          <div class="reveal-right">
+            <div class="about-visual-card">
+              <div class="about-icon-wrap" aria-hidden="true">
+                <i class="bi bi-building-fill-up"></i>
+              </div>
+              <h3 style="font-size:1.4rem;font-weight:800;color:var(--color-text);margin-bottom:8px;">
+                Shri Balaji Contractors
+              </h3>
+              <p style="font-size:0.9rem;color:var(--color-text-muted);margin-bottom:4px;">
+                <i class="bi bi-geo-alt-fill" style="color:var(--color-primary);" aria-hidden="true"></i>
+                &nbsp;Jankipuram, Lucknow, Uttar Pradesh
+              </p>
+              <p style="font-size:0.88rem;color:var(--color-text-muted);line-height:1.65;margin-top:16px;">
+                We provide end-to-end construction and civil services — from foundation work to final finishing — for residential homes, commercial buildings, and renovation requirements across Lucknow.
+              </p>
+
+              <!-- Feature grid -->
+              <div class="about-feature-grid" role="list" aria-label="Service categories">
+                <div class="about-feature-item" role="listitem">
+                  <i class="bi bi-house-fill" aria-hidden="true"></i>
+                  <span>Residential &amp; Commercial</span>
+                </div>
+                <div class="about-feature-item" role="listitem">
+                  <i class="bi bi-tools" aria-hidden="true"></i>
+                  <span>Construction &amp; Repair</span>
+                </div>
+                <div class="about-feature-item" role="listitem">
+                  <i class="bi bi-layers-fill" aria-hidden="true"></i>
+                  <span>Civil &amp; Structural Work</span>
+                </div>
+                <div class="about-feature-item" role="listitem">
+                  <i class="bi bi-brush-fill" aria-hidden="true"></i>
+                  <span>Finishing &amp; Renovation</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SERVICES SECTION
+  ============================================================ -->
+  <span class="section-top-accent" aria-hidden="true"></span>
+  <section id="services" class="section-pad" aria-labelledby="services-heading">
+    <div class="container">
+
+      <!-- Header -->
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-7 text-center reveal">
+          <span class="section-label" aria-hidden="true">Our Services</span>
+          <h2 id="services-heading" class="section-title mb-3">
+            What We <span style="color:var(--color-primary);">Do</span>
+          </h2>
+          <span class="orange-line mb-4 d-block mx-auto" aria-hidden="true"></span>
+          <p class="section-subtitle mx-auto">
+            From new house construction and civil work to repair and renovation — we cover the full spectrum of construction services in Lucknow.
+          </p>
+        </div>
+      </div>
+
+      <!-- Services Grid -->
+      <div class="row g-4">
+
+        <!-- Card 1: House & Building Construction -->
+        <div class="col-sm-6 col-lg-4">
+          <article class="service-card reveal delay-1" aria-labelledby="svc-heading-1">
+            <div class="service-icon-wrap" aria-hidden="true">
+              <i class="bi bi-house-fill"></i>
+            </div>
+            <h5 id="svc-heading-1">House &amp; Building Construction</h5>
+            <p>Complete construction services for new houses, residential buildings and commercial properties from ground up.</p>
+            <button class="service-expand-btn" aria-expanded="false" aria-controls="svc-list-1" onclick="toggleServiceList(this)">
+              View Services <i class="bi bi-chevron-down" aria-hidden="true"></i>
+            </button>
+            <div class="service-list-collapse collapse" id="svc-list-1">
+              <ul aria-label="House and building construction services">
+                <li>House Construction</li>
+                <li>New House Construction</li>
+                <li>Residential Building Construction</li>
+                <li>Commercial Building Construction</li>
+                <li>Complete Building Construction</li>
+                <li>New Building Construction</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <!-- Card 2: Civil Construction Work -->
+        <div class="col-sm-6 col-lg-4">
+          <article class="service-card reveal delay-2" aria-labelledby="svc-heading-2">
+            <div class="service-icon-wrap" aria-hidden="true">
+              <i class="bi bi-building-gear"></i>
+            </div>
+            <h5 id="svc-heading-2">Civil Construction Work</h5>
+            <p>Professional civil engineering and structural construction work for all types of projects.</p>
+            <button class="service-expand-btn" aria-expanded="false" aria-controls="svc-list-2" onclick="toggleServiceList(this)">
+              View Services <i class="bi bi-chevron-down" aria-hidden="true"></i>
+            </button>
+            <div class="service-list-collapse collapse" id="svc-list-2">
+              <ul aria-label="Civil construction services">
+                <li>Civil Construction Work</li>
+                <li>Foundation Work</li>
+                <li>RCC Work</li>
+                <li>Structural Construction</li>
+                <li>Concrete Work</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <!-- Card 3: Masonry & Brickwork -->
+        <div class="col-sm-6 col-lg-4">
+          <article class="service-card reveal delay-3" aria-labelledby="svc-heading-3">
+            <div class="service-icon-wrap" aria-hidden="true">
+              <i class="bi bi-bricks"></i>
+            </div>
+            <h5 id="svc-heading-3">Masonry &amp; Brickwork</h5>
+            <p>Skilled masonry and brickwork services ensuring structural stability and solid construction quality.</p>
+            <button class="service-expand-btn" aria-expanded="false" aria-controls="svc-list-3" onclick="toggleServiceList(this)">
+              View Services <i class="bi bi-chevron-down" aria-hidden="true"></i>
+            </button>
+            <div class="service-list-collapse collapse" id="svc-list-3">
+              <ul aria-label="Masonry and brickwork services">
+                <li>Brickwork</li>
+                <li>Masonry Work</li>
+                <li>Wall Construction</li>
+                <li>Structural Masonry</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <!-- Card 4: Plastering, Flooring & Roofing -->
+        <div class="col-sm-6 col-lg-4">
+          <article class="service-card reveal delay-1" aria-labelledby="svc-heading-4">
+            <div class="service-icon-wrap" aria-hidden="true">
+              <i class="bi bi-layers-fill"></i>
+            </div>
+            <h5 id="svc-heading-4">Finishing Work</h5>
+            <p>High-quality finishing services including plastering, flooring, roofing and complete construction finishing.</p>
+            <button class="service-expand-btn" aria-expanded="false" aria-controls="svc-list-4" onclick="toggleServiceList(this)">
+              View Services <i class="bi bi-chevron-down" aria-hidden="true"></i>
+            </button>
+            <div class="service-list-collapse collapse" id="svc-list-4">
+              <ul aria-label="Finishing work services">
+                <li>Plastering Work</li>
+                <li>Flooring Work</li>
+                <li>Roofing Work</li>
+                <li>Construction Finishing Work</li>
+                <li>Complete Construction Work</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <!-- Card 5: Repair Services -->
+        <div class="col-sm-6 col-lg-4">
+          <article class="service-card reveal delay-2" aria-labelledby="svc-heading-5">
+            <div class="service-icon-wrap" aria-hidden="true">
+              <i class="bi bi-wrench-adjustable"></i>
+            </div>
+            <h5 id="svc-heading-5">Repair Services</h5>
+            <p>Comprehensive building and civil repair services for houses, walls, roofs, RCC structures and more.</p>
+            <button class="service-expand-btn" aria-expanded="false" aria-controls="svc-list-5" onclick="toggleServiceList(this)">
+              View Services <i class="bi bi-chevron-down" aria-hidden="true"></i>
+            </button>
+            <div class="service-list-collapse collapse" id="svc-list-5">
+              <ul aria-label="Repair services">
+                <li>Building Repair</li>
+                <li>House Repair</li>
+                <li>Civil Repair Work</li>
+                <li>RCC Repair Work</li>
+                <li>Wall Repair</li>
+                <li>Roof Repair</li>
+                <li>Plaster Repair</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <!-- Card 6: Renovation & Remodeling -->
+        <div class="col-sm-6 col-lg-4">
+          <article class="service-card reveal delay-3" aria-labelledby="svc-heading-6">
+            <div class="service-icon-wrap" aria-hidden="true">
+              <i class="bi bi-arrow-repeat"></i>
+            </div>
+            <h5 id="svc-heading-6">Renovation &amp; Maintenance</h5>
+            <p>Full renovation, home remodeling and property maintenance services for residential and commercial properties.</p>
+            <button class="service-expand-btn" aria-expanded="false" aria-controls="svc-list-6" onclick="toggleServiceList(this)">
+              View Services <i class="bi bi-chevron-down" aria-hidden="true"></i>
+            </button>
+            <div class="service-list-collapse collapse" id="svc-list-6">
+              <ul aria-label="Renovation and maintenance services">
+                <li>Renovation Work</li>
+                <li>House Renovation</li>
+                <li>Building Renovation</li>
+                <li>Home Remodeling</li>
+                <li>Property Maintenance</li>
+                <li>Construction &amp; Repair Services</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+      </div>
+      <!-- / Services Grid -->
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PROCESS SECTION
+  ============================================================ -->
+  <span class="section-top-accent" aria-hidden="true"></span>
+  <section id="process" class="section-pad" aria-labelledby="process-heading">
+    <div class="container">
+
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-6 text-center reveal">
+          <span class="section-label" aria-hidden="true">How We Work</span>
+          <h2 id="process-heading" class="section-title mb-3">
+            Our Simple <span style="color:var(--color-primary);">Process</span>
+          </h2>
+          <span class="orange-line mb-4 d-block mx-auto" aria-hidden="true"></span>
+          <p class="section-subtitle mx-auto">
+            A straightforward approach to every construction, repair and renovation project.
+          </p>
+        </div>
+      </div>
+
+      <div class="process-wrap position-relative">
+        <!-- Connecting line (desktop only, decorative) -->
+        <div class="process-line" aria-hidden="true"></div>
+
+        <div class="row g-4 justify-content-center" role="list" aria-label="Our 4-step process">
+
+          <div class="col-6 col-lg-3" role="listitem">
+            <div class="process-step reveal delay-1">
+              <div class="process-number" aria-hidden="true">01</div>
+              <h5>Discuss</h5>
+              <p>Understand your construction, repair or renovation requirement in detail.</p>
+            </div>
+          </div>
+
+          <div class="col-6 col-lg-3" role="listitem">
+            <div class="process-step reveal delay-2">
+              <div class="process-number" aria-hidden="true">02</div>
+              <h5>Plan</h5>
+              <p>Review the scope, requirements and plan the work accordingly.</p>
+            </div>
+          </div>
+
+          <div class="col-6 col-lg-3" role="listitem">
+            <div class="process-step reveal delay-3">
+              <div class="process-number" aria-hidden="true">03</div>
+              <h5>Execute</h5>
+              <p>Carry out the required construction or civil work with proper attention to quality.</p>
+            </div>
+          </div>
+
+          <div class="col-6 col-lg-3" role="listitem">
+            <div class="process-step reveal delay-4">
+              <div class="process-number" aria-hidden="true">04</div>
+              <h5>Complete</h5>
+              <p>Focus on finishing and completing the agreed work to your satisfaction.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       WHY CHOOSE US
+  ============================================================ -->
+  <span class="section-top-accent" aria-hidden="true"></span>
+  <section id="why" class="section-pad" aria-labelledby="why-heading">
+    <div class="container">
+
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-7 text-center reveal">
+          <span class="section-label" aria-hidden="true">Why Choose Us</span>
+          <h2 id="why-heading" class="section-title mb-3">
+            Reasons to <span style="color:var(--color-primary);">Consider Us</span>
+          </h2>
+          <span class="orange-line mb-4 d-block mx-auto" aria-hidden="true"></span>
+          <p class="section-subtitle mx-auto">
+            Practical strengths that make Shri Balaji Contractors a reliable choice for your construction or renovation work.
+          </p>
+        </div>
+      </div>
+
+      <div class="row g-4">
+
+        <div class="col-sm-6 col-lg-4">
+          <div class="why-card reveal delay-1">
+            <div class="why-icon" aria-hidden="true">
+              <i class="bi bi-person-check-fill"></i>
+            </div>
+            <h5>Professional Approach</h5>
+            <p>We take each project seriously, from initial discussion through to final completion, maintaining clear communication throughout.</p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <div class="why-card reveal delay-2">
+            <div class="why-icon" aria-hidden="true">
+              <i class="bi bi-grid-3x3-gap-fill"></i>
+            </div>
+            <h5>Comprehensive Services</h5>
+            <p>We cover the full construction spectrum — new builds, civil work, structural work, finishing, repairs and complete renovation.</p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <div class="why-card reveal delay-3">
+            <div class="why-icon" aria-hidden="true">
+              <i class="bi bi-building-fill"></i>
+            </div>
+            <h5>Residential &amp; Commercial</h5>
+            <p>Experienced in handling both residential homes and commercial building requirements across different project types.</p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <div class="why-card reveal delay-4">
+            <div class="why-icon" aria-hidden="true">
+              <i class="bi bi-tools"></i>
+            </div>
+            <h5>Construction &amp; Repair Expertise</h5>
+            <p>Skilled in both new construction and repair work — RCC, masonry, brickwork, wall and roof repair and more.</p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <div class="why-card reveal delay-5">
+            <div class="why-icon" aria-hidden="true">
+              <i class="bi bi-brush-fill"></i>
+            </div>
+            <h5>Finishing &amp; Renovation</h5>
+            <p>Dedicated finishing and renovation services to improve, update and restore existing properties to a better standard.</p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <div class="why-card reveal delay-6">
+            <div class="why-icon" aria-hidden="true">
+              <i class="bi bi-geo-alt-fill"></i>
+            </div>
+            <h5>Local Service in Lucknow</h5>
+            <p>Based in Jankipuram, Lucknow — we provide accessible, locally available construction and civil services across the region.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CTA SECTION
+  ============================================================ -->
+  <section id="cta" class="section-pad" aria-label="Call to action — Contact Shri Balaji Contractors">
+    <div class="cta-accent" aria-hidden="true"></div>
+    <div class="container position-relative" style="z-index:1;">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-8 reveal-left">
+          <span class="section-label" aria-hidden="true" style="color:var(--color-primary);">Get In Touch</span>
+          <h2 class="cta-headline mt-2">
+            Planning a <em>Construction</em><br>
+            or Renovation Project?
+          </h2>
+          <p class="cta-text">
+            Talk to Shri Balaji Contractors about your construction, civil, repair or renovation requirement. We're here to help.
+          </p>
+          <a href="tel:+919936928712" class="btn-primary-custom" aria-label="Call Shri Balaji Contractors at +91 99369 28712" style="font-size:1rem;padding:16px 36px;">
+            <i class="bi bi-telephone-fill" aria-hidden="true"></i>
+            Call +91 99369 28712
+          </a>
+        </div>
+        <div class="col-lg-4 reveal-right d-flex justify-content-center justify-content-lg-end">
+          <div style="
+            background: rgba(255,255,255,0.04);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 20px;
+            padding: 28px 24px;
+            text-align: center;
+            min-width: 220px;
+          ">
+            <div style="font-size:2.2rem;color:var(--color-primary);margin-bottom:10px;" aria-hidden="true">
+              <i class="bi bi-telephone-fill"></i>
+            </div>
+            <div style="font-size:0.72rem;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-bottom:8px;">Call Us At</div>
+            <a href="tel:+919936928712" style="font-size:1.15rem;font-weight:800;color:#fff;display:block;margin-bottom:12px;" aria-label="Call +91 99369 28712">+91 99369 28712</a>
+            <a href="mailto:shribalajicontractors.in@gmail.com" style="font-size:0.78rem;color:rgba(255,255,255,0.5);word-break:break-all;display:block;" aria-label="Email shribalajicontractors.in@gmail.com">shribalajicontractors.in@gmail.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT SECTION
+  ============================================================ -->
+  <span class="section-top-accent" aria-hidden="true"></span>
+  <section id="contact" class="section-pad" aria-labelledby="contact-heading">
+    <div class="container">
+
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-6 text-center reveal">
+          <span class="section-label" aria-hidden="true">Contact</span>
+          <h2 id="contact-heading" class="section-title mb-3">
+            Get In <span style="color:var(--color-primary);">Touch</span>
+          </h2>
+          <span class="orange-line mb-4 d-block mx-auto" aria-hidden="true"></span>
+          <p class="section-subtitle mx-auto">
+            Reach out to Shri Balaji Contractors directly — by phone, email, or visit our location in Jankipuram, Lucknow.
+          </p>
+        </div>
+      </div>
+
+      <div class="row g-4 justify-content-center">
+
+        <!-- Phone -->
+        <div class="col-sm-6 col-lg-4">
+          <div class="contact-card reveal delay-1">
+            <div class="contact-icon" aria-hidden="true">
+              <i class="bi bi-telephone-fill"></i>
+            </div>
+            <h5>Phone</h5>
+            <a href="tel:+919936928712" aria-label="Call +91 99369 28712">+91 99369 28712</a>
+            <p class="address-text mt-2" style="font-size:0.82rem;color:var(--color-text-muted);">
+              Tap to call directly
+            </p>
+          </div>
+        </div>
+
+        <!-- Email -->
+        <div class="col-sm-6 col-lg-4">
+          <div class="contact-card reveal delay-2">
+            <div class="contact-icon" aria-hidden="true">
+              <i class="bi bi-envelope-fill"></i>
+            </div>
+            <h5>Email</h5>
+            <a href="mailto:shribalajicontractors.in@gmail.com" style="font-size:0.88rem;word-break:break-all;" aria-label="Email shribalajicontractors.in@gmail.com">shribalajicontractors.in@gmail.com</a>
+            <p class="address-text mt-2" style="font-size:0.82rem;color:var(--color-text-muted);">
+              Send us an email
+            </p>
+          </div>
+        </div>
+
+        <!-- Address -->
+        <div class="col-sm-10 col-lg-4">
+          <div class="contact-card reveal delay-3">
+            <div class="contact-icon" aria-hidden="true">
+              <i class="bi bi-geo-alt-fill"></i>
+            </div>
+            <h5>Location</h5>
+            <address class="address-text" style="font-style:normal;">
+              Plot no. 156, Paragana Naya Khera,<br>
+              Near Utsav Mandap Lawn,<br>
+              Abdul Kalam University,<br>
+              Jankipuram, Lucknow,<br>
+              Uttar Pradesh — 226031
+            </address>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       MAP SECTION
+  ============================================================ -->
+  <section id="map" class="section-pad" style="padding-top:0;" aria-label="Location map">
+    <div class="container">
+      <div class="map-container reveal">
+        <!-- Google Maps embed based on supplied address -->
+        <iframe
+          src="https://maps.google.com/maps?q=Plot+no+156+Paragana+Naya+Khera+Near+Utsav+Mandap+Lawn+Abdul+Kalam+University+Jankipuram+Lucknow+Uttar+Pradesh+226031&output=embed&z=15"
+          width="100%"
+          height="460"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Shri Balaji Contractors location — Plot no 156 Paragana Naya Khera Jankipuram Lucknow"
+          aria-label="Google Maps showing location of Shri Balaji Contractors in Jankipuram Lucknow">
+        </iframe>
+
+        <!-- Map overlay bar -->
+        <div class="map-overlay-bar">
+          <div class="map-address-text">
+            <i class="bi bi-geo-alt-fill" aria-hidden="true"></i>
+            <span>
+              Plot no. 156, Paragana Naya Khera, Near Utsav Mandap Lawn, Abdul Kalam University, Jankipuram, Lucknow — 226031
+            </span>
+          </div>
+          <a
+            href="https://maps.google.com/maps?q=Plot+no+156+Paragana+Naya+Khera+Near+Utsav+Mandap+Lawn+Abdul+Kalam+University+Jankipuram+Lucknow+Uttar+Pradesh+226031"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-directions"
+            aria-label="Open location in Google Maps for directions">
+            <i class="bi bi-arrow-up-right-circle" aria-hidden="true"></i>
+            Get Directions
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ============================================================
+       DISCLAIMER SECTION (MyBestGuide)
+  ============================================================ -->
+  <section class="mbg-disclaimer-section" aria-label="Disclaimer — MyBestGuide free website initiative">
+    <div class="mbg-container">
+
+      <!-- Toggle trigger header (always visible) -->
+      <button
+        class="mbg-toggle-btn"
+        id="mbgToggleBtn"
+        aria-expanded="false"
+        aria-controls="mbgDisclaimerBody"
+        aria-label="Toggle disclaimer from MyBestGuide"
+        onclick="mbgToggleDisclaimer()"
+      >
+        <span class="mbg-heading-text">
+          Disclaimer&nbsp;
+          <a
+            href="https://mybestguide.in"
+            class="mbg-brand-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit MyBestGuide website"
+            onclick="event.stopPropagation()"
+          >MyBestGuide.</a>
+        </span>
+        <span class="mbg-arrow-wrap" aria-hidden="true">
+          <i class="bi bi-chevron-down mbg-arrow-icon"></i>
+        </span>
+      </button>
+
+      <!-- Collapsible body -->
+      <div
+        class="mbg-body-outer"
+        id="mbgDisclaimerBody"
+        role="region"
+        aria-labelledby="mbgToggleBtn"
+        aria-hidden="true"
+      >
+        <div class="mbg-body-inner" id="mbgBodyInner">
+          <div class="mbg-content-wrap">
+
+            <!-- Disclaimer text -->
+            <p class="mbg-text">
+              This website is built and maintained by
+              <a
+                href="https://mybestguide.in"
+                class="mbg-inline-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit MyBestGuide"
+              >MyBestGuide</a>
+              as part of a 100% free website service initiative.
+              No charges or fees are collected from users for the development or maintenance of this website.
+              All services provided under this initiative are completely free of cost.
+            </p>
+
+            <!-- Action buttons -->
+            <div class="mbg-btn-group" role="group" aria-label="MyBestGuide links">
+              <a
+                href="https://mybestguide.in/services"
+                class="mbg-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View MyBestGuide services"
+              >
+                <i class="bi bi-grid-3x3-gap-fill" aria-hidden="true"></i>
+                Services
+              </a>
+              <a
+                href="https://mybestguide.in/contact"
+                class="mbg-btn mbg-btn--outline"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Contact MyBestGuide"
+              >
+                <i class="bi bi-envelope-fill" aria-hidden="true"></i>
+                Contact
+              </a>
+              <a
+                href="https://mybestguide.in/services"
+                class="mbg-btn mbg-btn--cta"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Claim your free website from MyBestGuide"
+              >
+                <i class="bi bi-stars" aria-hidden="true"></i>
+                Claim Your Free Website
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- / Collapsible body -->
+
+    </div>
+  </section>
+  <!-- / DISCLAIMER SECTION -->
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer id="footer" aria-label="Footer">
+    <div class="container">
+      <div class="row g-5">
+
+        <!-- Brand col -->
+        <div class="col-lg-4">
+          <div class="footer-brand">
+            <div class="footer-brand-icon" aria-hidden="true">
+              <i class="bi bi-building-fill-up"></i>
+            </div>
+            <div>
+              <div class="footer-brand-name">Shri <span>Balaji</span> Contractors</div>
+              <div class="footer-brand-sub">Construction &amp; Civil Works</div>
+            </div>
+          </div>
+          <p class="footer-desc">
+            Providing house construction, building construction, civil work, repair and renovation services in Lucknow, Uttar Pradesh.
+          </p>
+          <div class="footer-contact-item">
+            <i class="bi bi-telephone-fill" aria-hidden="true"></i>
+            <a href="tel:+919936928712" aria-label="Call +91 99369 28712">+91 99369 28712</a>
+          </div>
+          <div class="footer-contact-item">
+            <i class="bi bi-envelope-fill" aria-hidden="true"></i>
+            <a href="mailto:shribalajicontractors.in@gmail.com" aria-label="Email shribalajicontractors.in@gmail.com" style="word-break:break-all;">shribalajicontractors.in@gmail.com</a>
+          </div>
+          <div class="footer-contact-item">
+            <i class="bi bi-geo-alt-fill" aria-hidden="true"></i>
+            <address style="font-style:normal;">
+              <span>Plot no. 156, Paragana Naya Khera,<br>
+              Near Utsav Mandap Lawn,<br>
+              Abdul Kalam University,<br>
+              Jankipuram, Lucknow — 226031</span>
+            </address>
+          </div>
+        </div>
+
+        <!-- Services col -->
+        <div class="col-6 col-lg-2">
+          <h3 class="footer-heading">Services</h3>
+          <ul class="footer-link-list" aria-label="Service links">
+            <li><a href="#services">House Construction</a></li>
+            <li><a href="#services">Building Construction</a></li>
+            <li><a href="#services">Civil Construction</a></li>
+            <li><a href="#services">RCC Work</a></li>
+            <li><a href="#services">Masonry Work</a></li>
+            <li><a href="#services">Plastering Work</a></li>
+          </ul>
+        </div>
+
+        <!-- More Services col -->
+        <div class="col-6 col-lg-2">
+          <h3 class="footer-heading">More</h3>
+          <ul class="footer-link-list" aria-label="More service links">
+            <li><a href="#services">Flooring Work</a></li>
+            <li><a href="#services">Roofing Work</a></li>
+            <li><a href="#services">Building Repair</a></li>
+            <li><a href="#services">House Renovation</a></li>
+            <li><a href="#services">Roof Repair</a></li>
+            <li><a href="#services">Wall Repair</a></li>
+          </ul>
+        </div>
+
+        <!-- Navigation col -->
+        <div class="col-6 col-lg-2">
+          <h3 class="footer-heading">Navigate</h3>
+          <ul class="footer-link-list" aria-label="Site navigation links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#why">Why Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Location col -->
+        <div class="col-6 col-lg-2">
+          <h3 class="footer-heading">Location</h3>
+          <div style="
+            background: rgba(232,137,12,0.08);
+            border: 1px solid rgba(232,137,12,0.15);
+            border-radius: 12px;
+            padding: 18px;
+          ">
+            <i class="bi bi-geo-alt-fill" style="color:var(--color-primary);font-size:1.3rem;margin-bottom:10px;display:block;" aria-hidden="true"></i>
+            <p style="font-size:0.82rem;color:rgba(255,255,255,0.5);line-height:1.65;margin:0;">
+              Jankipuram,<br>Lucknow,<br>Uttar Pradesh<br>226031
+            </p>
+            <a href="https://maps.google.com/maps?q=Jankipuram+Lucknow+Uttar+Pradesh+226031" target="_blank" rel="noopener noreferrer" style="font-size:0.75rem;color:var(--color-primary);font-weight:700;display:inline-flex;align-items:center;gap:4px;margin-top:12px;" aria-label="View on Google Maps">
+              View Map <i class="bi bi-arrow-up-right" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer bottom bar -->
+      <div class="footer-bottom">
+        <p>© 2026 Shri Balaji Contractors. All rights reserved.</p>
+        <span class="footer-bottom-badge">
+          House Construction • Civil Work • Repair • Renovation • Lucknow
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       BACK TO TOP BUTTON
+  ============================================================ -->
+  <button id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top">
+    <i class="bi bi-arrow-up" aria-hidden="true"></i>
+  </button>
+
+  <!-- Bootstrap 5 JS (bundle with Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    /* ============================================================
+       MAIN JAVASCRIPT
+    ============================================================ */
+
+    'use strict';
+
+    /* ---- Navbar scroll behavior -------------------------------- */
+    (function () {
+      const nav = document.getElementById('mainNav');
+      if (!nav) return;
+
+      function handleNavScroll() {
+        if (window.scrollY > 60) {
+          nav.classList.add('nav-scrolled');
+        } else {
+          nav.classList.remove('nav-scrolled');
+        }
+      }
+
+      window.addEventListener('scroll', handleNavScroll, { passive: true });
+      handleNavScroll(); // run on load
+    })();
+
+    /* ---- Active nav link on scroll ---------------------------- */
+    (function () {
+      const sections = document.querySelectorAll('section[id]');
+      const navLinks = document.querySelectorAll('#mainNav .nav-link');
+
+      function updateActiveLink() {
+        let currentSection = '';
+        const scrollPos = window.scrollY + 100;
+
+        sections.forEach(function (sec) {
+          if (scrollPos >= sec.offsetTop) {
+            currentSection = sec.getAttribute('id');
+          }
+        });
+
+        navLinks.forEach(function (link) {
+          link.classList.remove('active');
+          link.removeAttribute('aria-current');
+          const href = link.getAttribute('href');
+          if (href && href === '#' + currentSection) {
+            link.classList.add('active');
+            link.setAttribute('aria-current', 'page');
+          }
+        });
+      }
+
+      window.addEventListener('scroll', updateActiveLink, { passive: true });
+      updateActiveLink();
+    })();
+
+    /* ---- Smooth scroll for all anchor links ------------------- */
+    (function () {
+      document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
+        anchor.addEventListener('click', function (e) {
+          const target = document.querySelector(this.getAttribute('href'));
+          if (target) {
+            e.preventDefault();
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+            // Close mobile navbar if open
+            const navbarCollapse = document.getElementById('navbarContent');
+            if (navbarCollapse && navbarCollapse.classList.contains('show')) {
+              const bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse);
+              if (bsCollapse) bsCollapse.hide();
+            }
+          }
+        });
+      });
+    })();
+
+    /* ---- Scroll Reveal via IntersectionObserver --------------- */
+    (function () {
+      // Respect prefers-reduced-motion
+      const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if (prefersReducedMotion) {
+        // Make all reveal elements immediately visible
+        document.querySelectorAll('.reveal, .reveal-left, .reveal-right').forEach(function (el) {
+          el.classList.add('is-visible');
+        });
+        return;
+      }
+
+      const revealEls = document.querySelectorAll('.reveal, .reveal-left, .reveal-right');
+
+      const observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, {
+        threshold: 0.12,
+        rootMargin: '0px 0px -40px 0px'
+      });
+
+      revealEls.forEach(function (el) {
+        observer.observe(el);
+      });
+
+      // Accent underline observer
+      const underlineEls = document.querySelectorAll('.accent-underline');
+      const underlineObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            underlineObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.5 });
+
+      underlineEls.forEach(function (el) {
+        underlineObserver.observe(el);
+      });
+    })();
+
+    /* ---- Back to Top button ----------------------------------- */
+    (function () {
+      const btn = document.getElementById('backToTop');
+      if (!btn) return;
+
+      window.addEventListener('scroll', function () {
+        if (window.scrollY > 400) {
+          btn.classList.add('show');
+        } else {
+          btn.classList.remove('show');
+        }
+      }, { passive: true });
+    })();
+
+    /* ---- Service Card Expand/Collapse -------------------------- */
+    function toggleServiceList(btn) {
+      const targetId = btn.getAttribute('aria-controls');
+      const targetEl = document.getElementById(targetId);
+      if (!targetEl) return;
+
+      const isExpanded = btn.getAttribute('aria-expanded') === 'true';
+
+      if (isExpanded) {
+        // Collapse
+        targetEl.style.maxHeight = targetEl.scrollHeight + 'px';
+        requestAnimationFrame(function () {
+          targetEl.style.transition = 'max-height 0.3s ease, opacity 0.3s ease';
+          targetEl.style.maxHeight = '0';
+          targetEl.style.opacity = '0';
+        });
+        setTimeout(function () {
+          targetEl.classList.add('collapse');
+          targetEl.style.maxHeight = '';
+          targetEl.style.opacity = '';
+          targetEl.style.transition = '';
+        }, 320);
+        btn.setAttribute('aria-expanded', 'false');
+      } else {
+        // Expand
+        targetEl.classList.remove('collapse');
+        targetEl.style.maxHeight = '0';
+        targetEl.style.opacity = '0';
+        requestAnimationFrame(function () {
+          requestAnimationFrame(function () {
+            targetEl.style.transition = 'max-height 0.35s ease, opacity 0.35s ease';
+            targetEl.style.maxHeight = targetEl.scrollHeight + 'px';
+            targetEl.style.opacity = '1';
+          });
+        });
+        setTimeout(function () {
+          targetEl.style.maxHeight = '';
+          targetEl.style.opacity = '';
+          targetEl.style.transition = '';
+        }, 380);
+        btn.setAttribute('aria-expanded', 'true');
+      }
+    }
+
+    /* ---- Keyboard support for service cards ------------------- */
+    document.querySelectorAll('.service-expand-btn').forEach(function (btn) {
+      btn.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          toggleServiceList(btn);
+        }
+      });
+    });
+
+    /* ---- Navbar close on outside click (mobile) --------------- */
+    document.addEventListener('click', function (e) {
+      const navbarCollapse = document.getElementById('navbarContent');
+      const navbarToggler = document.querySelector('.navbar-toggler');
+      if (
+        navbarCollapse &&
+        navbarCollapse.classList.contains('show') &&
+        !navbarCollapse.contains(e.target) &&
+        !navbarToggler.contains(e.target)
+      ) {
+        const bsCollapse = bootstrap.Collapse.getInstance(navbarCollapse);
+        if (bsCollapse) bsCollapse.hide();
+      }
+    });
+
+    /* ============================================================
+       DISCLAIMER TOGGLE — MyBestGuide
+    ============================================================ */
+    function mbgToggleDisclaimer() {
+      var btn    = document.getElementById('mbgToggleBtn');
+      var body   = document.getElementById('mbgDisclaimerBody');
+      var inner  = document.getElementById('mbgBodyInner');
+
+      if (!btn || !body || !inner) return;
+
+      var isExpanded = btn.getAttribute('aria-expanded') === 'true';
+
+      if (isExpanded) {
+        /* ----- COLLAPSE ----- */
+        /* On desktop, animate back to 0 via max-height */
+        var isMobile = window.innerWidth <= 768;
+
+        if (!isMobile) {
+          /* Snapshot current rendered height, then animate to 0 */
+          body.style.maxHeight = body.scrollHeight + 'px';
+          body.style.overflow  = 'hidden';
+          /* Tiny rAF so browser registers the above before transition starts */
+          requestAnimationFrame(function () {
+            requestAnimationFrame(function () {
+              body.style.transition = 'max-height 0.42s cubic-bezier(0.4,0,0.2,1), opacity 0.38s ease';
+              body.style.maxHeight  = '0';
+              body.style.opacity    = '0';
+            });
+          });
+        } else {
+          /* Mobile: just fade out then hide */
+          body.style.transition = 'opacity 0.35s ease';
+          body.style.opacity    = '0';
+        }
+
+        setTimeout(function () {
+          body.classList.remove('mbg-expanded');
+          body.style.maxHeight  = '';
+          body.style.opacity    = '';
+          body.style.overflow   = '';
+          body.style.transition = '';
+          body.setAttribute('aria-hidden', 'true');
+        }, 450);
+
+        btn.setAttribute('aria-expanded', 'false');
+
+      } else {
+        /* ----- EXPAND ----- */
+        body.classList.add('mbg-expanded');
+        body.setAttribute('aria-hidden', 'false');
+        btn.setAttribute('aria-expanded', 'true');
+
+        var isMobile = window.innerWidth <= 768;
+
+        if (!isMobile) {
+          /* Desktop: animate from 0 to scrollHeight, then unlock */
+          body.style.maxHeight  = '0';
+          body.style.opacity    = '0';
+          body.style.overflow   = 'hidden';
+
+          requestAnimationFrame(function () {
+            requestAnimationFrame(function () {
+              body.style.transition = 'max-height 0.45s cubic-bezier(0.4,0,0.2,1), opacity 0.4s ease';
+              body.style.maxHeight  = inner.scrollHeight + 'px';
+              body.style.opacity    = '1';
+            });
+          });
+
+          /* After animation ends, remove fixed max-height so it breathes naturally */
+          setTimeout(function () {
+            body.style.maxHeight  = '40vh';
+            body.style.overflow   = 'auto';
+            body.style.transition = '';
+          }, 480);
+
+        } else {
+          /* Mobile: fade in with auto height, no clipping */
+          body.style.opacity    = '0';
+          body.style.transition = 'opacity 0.38s ease';
+          requestAnimationFrame(function () {
+            requestAnimationFrame(function () {
+              body.style.opacity = '1';
+            });
+          });
+          setTimeout(function () {
+            body.style.transition = '';
+          }, 420);
+        }
+
+        /* Optional: scroll section into view so content is visible */
+        setTimeout(function () {
+          var section = body.closest('.mbg-disclaimer-section');
+          if (section) {
+            section.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          }
+        }, 120);
+      }
+    }
+
+    /* Keyboard accessibility for the disclaimer toggle */
+    (function () {
+      var btn = document.getElementById('mbgToggleBtn');
+      if (!btn) return;
+      btn.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          mbgToggleDisclaimer();
+        }
+      });
+    })();
+
+  </script>
+
+</body>
+</html>
